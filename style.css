@@ -1,0 +1,71 @@
+body {
+    font-family: Quicksand, sans-serif;
+    background-image: linear-gradient(180deg, #b4e4f3 0%, #86beff 100%);
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#imagem {
+    width: 50%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+#texto {
+    width: 50%;
+    text-align: center;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700; 
+    color: #fff;
+}
+
+#texto h1 {
+    font-size: 50px;
+}
+
+#contador {
+    font-size: 64px;
+    color: #002cf1; 
+}
+
+@media screen and (max-width: 600px) {
+
+    #container {
+        flex-direction: column;
+        text-align: center;
+    }
+    #imagem {
+        width: 50%;
+        max-width: 600px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #texto {
+        width: 50%;
+        text-align: center;
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 700; 
+        color: #fff;
+    }
+    
+    #texto h1 {
+        font-size: 30px;
+    }
+    
+    #contador {
+        font-size: 40px;
+        color: #A200F1; 
+    }
+}
